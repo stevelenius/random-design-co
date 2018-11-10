@@ -125,6 +125,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .nav a:link, a:hover, a:active, a:visited {
     color: inherit;
 }
@@ -192,13 +197,21 @@ a {
     font-weight: normal;
     color: #fff;
     text-align: center;
+}
 
+.button:hover {
+    color: #000;
+    background-color: #fff;
 }
 
 .textblock {
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em;
     border-bottom: 1px solid #ddd;
+}
+
+.gridcontainer {
     overflow: auto;
+    border: 1px solid black;
 }
 
 .h3 {
@@ -288,10 +301,9 @@ a {
 }
 
 .footer {
-    clear: both;
     text-align: center;
+    padding: 1em;
 }
-
 
 
 
