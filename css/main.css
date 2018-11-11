@@ -145,6 +145,10 @@ a:link, a:hover, a:active, a:visited {
     float: right;
 }
 
+.navspace {
+    height: 3.5em;
+}
+
 /* BIGIMAGE SECTION */
 
 .bigimage img {
@@ -163,6 +167,7 @@ a:link, a:hover, a:active, a:visited {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
@@ -173,7 +178,7 @@ a:link, a:hover, a:active, a:visited {
     font-size: 2.75em;
     line-height: 1em;
     font-weight: bold;
-    padding: 0 0 1em 0;
+    padding: 0 20% 1em 20%;
 }
 
 .button {
@@ -204,7 +209,7 @@ a:link, a:hover, a:active, a:visited {
     text-transform: uppercase;
 }
 
-/* GALLERY SECTION */
+/* GALLERYBLOCK SECTION */
 
 .galleryblock {
     padding: 2em 1em;
