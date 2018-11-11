@@ -116,10 +116,11 @@ a {
     text-decoration: none;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+a:link, a:hover, a:active, a:visited {
+    color: inherit;
 }
+
+
 
 /* NAV SECTION */
 
@@ -144,10 +145,6 @@ p {
     float: right;
 }
 
-.nav a:link, a:hover, a:active, a:visited {
-    color: inherit;
-}
-
 /* BIGIMAGE SECTION */
 
 .bigimage img {
@@ -158,7 +155,7 @@ p {
 
 .bigimage figure {
     position: relative;
-    margin: 3.5em 0 0 0;
+    margin: 0 0 0 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -197,7 +194,7 @@ p {
 /* TEXTBLOCK SECTION */
 
 .textblock {
-    padding: 2em 1em;
+    padding: 2em 1em 1em 1em;
     border-bottom: 1px solid #ddd;
 }
 
@@ -208,6 +205,11 @@ p {
 }
 
 /* GALLERY SECTION */
+
+.galleryblock {
+    padding: 2em 1em;
+    border-bottom: 1px solid #ddd;
+}
 
 .galleryitem {
     position: relative;
@@ -252,7 +254,6 @@ p {
 
 .footer {
     text-align: center;
-    padding: 1em;
 }
 
 
