@@ -218,7 +218,46 @@ p {
     font-size: 1em;
     font-weight: bold;
 }
+
+.h4 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
     
+.galleryitem {
+    position: relative;
+    width: 50%;
+    padding: 1px;
+    color: #000;
+    float: left;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.galleryitem:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+}
+
+.gallerylegend {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.galleryimage {
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 100%;
+
+}
+
 .galleryimageleft {
     display: block;
     width: 50%;
